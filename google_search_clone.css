@@ -1,0 +1,891 @@
+/*Navigation*/
+nav {
+    width: 1893px;
+    height: 90px;
+    background-color: rgb(250, 250 ,250);
+    position: relative;
+    top: 0x;
+    left: 0px;
+    border-bottom: 1px solid #e4e4e4;
+}
+
+.google-image-nav {
+    width: 150px;
+    height: 46px;
+    background-color;
+    position: relative;
+    top: -15px;
+    left: 2px;
+}
+.google-image-nav h1 {
+    color: rgb(26, 13, 171);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 38px;
+    font-weight: 300;
+}
+.google-image-nav h1:hover {
+    cursor: pointer;
+}
+input {
+    position: absolute;
+    left: 140px;
+    top: -15px;
+    float: right;
+    height: 42px;
+    width: 630px;
+    border: 1px solid #e4e4e4;
+    border-radius: 2px;
+    outline: none;
+    background-color: white;
+    box-shadow: 3px 3px 3px lightgray;   
+}
+.search-bar i {
+    position: absolute;
+    left: 742px;
+    top: 0px;
+    color: rgb(66, 133, 244);
+}
+.app-icon {
+    width: 50px;
+    height: 50px;  
+    position: absolute;
+    top: -5px;
+    left: 1740px;  
+    color: rgb(34,34, 34);
+}
+.app-icon i {
+    color: grey;
+}
+.app-icon i:hover {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.sign-in {
+    position: absolute;
+    top: -3px;
+    left: 1795px; 
+}
+button {
+    width: 72px;
+    height: 30px;
+    background-color: rgb(67,135,253);
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    font-size: 13px;
+    font-weight: bold;
+    border: 1px solid #4285f4;
+    outline: none;
+    border-radius: 2px;
+}
+h4 {
+    text-decoration: none;
+    font-size: 13px;
+    color: #222;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.second-nav {
+    width: 775px;
+    height: 50px;
+    position: relative;
+    left: 0px;
+    top: -5px;
+}
+.second-nav h4 {
+    color: rgb(95, 99, 104);
+    text-align: center;
+    line-height: -5;
+}
+.all {
+    float: left;
+    position: relative;
+    left: 139px;
+    top: 3px;
+    width: 50px;
+    height: 43px;
+    border-bottom: 3px solid #4285f4;
+    color: solid #4285f4;
+}
+.all h4 {
+    color: #4285f4;   
+    font-weight: bold;
+}
+.maps {
+    float: left;
+    position: relative;
+    left: 148px;
+    top: 3px;;
+    width: 50px;
+    height: 40px;
+}
+.news {
+    float: left;
+    position: relative;
+    left: 160px;
+    top: 3px;
+    width: 50px;
+    height: 40px;
+}
+.videos {
+    float: left;
+    position: relative;
+    left: 175px;
+    top: 3px;
+    width: 50px;
+    height: 40px;
+}
+.images {
+    float: left;
+    position: relative;
+    left: 199px;
+    top: 3px;
+    width: 50px;
+    height: 40px;
+}
+.more {
+    float: left;
+    position: relative;
+    left: 215px;
+    top: 3px;
+    width: 50px;
+    height: 40px;
+}
+.settings {
+    float: left;
+    position: relative;
+    left: 350px;
+    top: 3px;
+    width: 50px;
+    height: 40px;
+}
+.tools {
+    float: left;
+    position: relative;
+    left: 370px;
+    top: 3px;
+    width: 50px;
+    height: 40px;
+}
+.second-nav h4:hover {
+    cursor: pointer;
+    color: black;
+}
+
+/*Start of Middle Section*/
+
+.section-1 {
+    position: relative;
+    left: 155px;
+    top: 0px;
+    width: 570px;
+    height: 350px;
+}
+.section-1 h4 {
+    color: rgb(95, 99, 104);
+
+}
+.section-1 h3 {
+    font-size: 18px;
+    color: rgb(26, 13, 171);
+    font-family: arial, sans-serif;
+    font-weight: normal;
+}
+.section-1 cite {
+    font-family: Arial, Helvetica, sans-serif;  
+    position: relative;
+    left: 0px;
+    top: -25px;
+    font-size: 14px;
+    color: rgb(0, 102, 33);
+    font-style: normal;
+    cursor: pointer;
+}
+.section-1 a {
+    text-decoration: none;
+}
+.section-1 a:hover {
+    text-decoration: underline;
+}
+.section-1 i {
+    color: rgb(0, 102, 33);    
+    position: relative;
+    left: -7px;
+    top: -17px;
+}
+.section-1 p {
+    color: rgb(95, 99, 104);
+    font-family: Arial, Helvetica, sans-serif; 
+    position: relative;
+    left: 0px;
+    top: -35px;
+    font-size: 13px;
+}
+.google-news {
+    position: relative;
+    left: 30px;
+    top: -45px;
+    width: 210px;
+    height: 60px;   
+
+}
+.google-news p {
+    position: relative;
+    left: 0px;
+    top: -18px;
+}
+.google-docs {
+    position: relative;
+    left: 340px;
+    top: -123px;
+    width: 210px;
+    height: 60px;  
+}
+.google-docs p {
+    position: relative;
+    left: 0px;
+    top: -18px;
+}
+.google-drive {
+    position: relative;
+    left: 30px;
+    top: -130px;
+    width: 210px;
+    height: 60px;  
+}
+.google-drive p {
+    position: relative;
+    left: 0px;
+    top: -18px;
+}
+.google-account {
+    position: relative;
+    left: 340px;
+    top: -208px;
+    width: 210px;
+    height: 60px;  
+}
+.google-account p {
+    position: relative;
+    left: 0px;
+    top: -18px;
+}
+.google-maps {
+    position: relative;
+    left: 30px;
+    top: -215px;
+    width: 210px;
+    height: 60px;  
+    background-color: ;
+}
+.google-maps p {
+    position: relative;
+    left: 0px;
+    top: -18px;
+}
+.gmail {
+    position: relative;
+    left: 340px;
+    top: -292px;
+    width: 210px;
+    height: 60px;  
+}
+.gmail p {
+    position: relative;
+    left: 0px;
+    top: -18px;
+}
+.section-1-closing {
+    position: relative;
+    left: 30px;
+    top: -290px;
+    width: 250px;
+    height: 30px; 
+    color: rgb(26, 13, 171);
+    font-family: arial, sans-serif;
+    font-weight: normal;
+    font-size: 13px;
+}
+
+/*Middle Section 2*/
+.section-2 {
+    position: relative;
+    left: 140px;
+    top: 0px;
+    width: 630px;
+    height: 380px;
+    background-color:;
+}
+
+.top-stories {
+    position: relative;
+    left: 11px;
+    top: 10px;
+}
+.top-stories h3{
+    font-size: 18px;
+    color: black;
+    font-family: arial, sans-serif;
+    font-weight: normal;
+}
+.section-2-times {
+    width: 205px;
+    height: 296px;
+    border: 1px solid #e4e4e4;
+    border-radius: 2px;
+    box-shadow: 0px 2px 0px lightgray;
+    float: left;
+    position: relative;
+    left: 0px;
+    top: 0;
+}
+.section-2-times img {
+    width: 205px;
+    height: 115px;
+    border-top-right-radius: 2px;
+    border-top-left-radius: 2px;
+}
+.section-2-times h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(26, 13, 171);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.375em;
+    position: relative;
+    left: 11px;
+    cursor: pointer;
+}
+.section-2-times h3:hover {
+    text-decoration: underline;
+}
+.section-2-times cite {
+    font-family: Arial, Helvetica, sans-serif;  
+    position: relative;
+    left: 11px;
+    top: 0px;
+    font-size: 14px;
+    color: rgb(0, 102, 33);
+    font-style: normal;
+}
+
+.section-2-times h4 {
+    color: rgb(95, 99, 104);
+    font-family: Arial, Helvetica, sans-serif; 
+    position: relative;
+    left: 11px;
+    top: 0px;
+    font-size: 13px;
+}
+.section-2-toms {
+    width: 205px;
+    height: 296px;
+    border: 1px solid #e4e4e4;
+    border-radius: 2px;
+    box-shadow: 0px 2px 0px lightgray;
+    float: left;
+    position: relative;
+    left: 5px;
+    top: 0px;
+}
+.section-2-toms img {
+    width: 205px;
+    height: 115px;
+    border-top-right-radius: 2px;
+    border-top-left-radius: 2px;
+}
+.section-2-toms h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(26, 13, 171);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.375em;
+    position: relative;
+    left: 11px;
+    cursor: pointer;
+}
+.section-2-toms h3:hover {
+    text-decoration: underline;
+}
+.section-2-toms cite {
+    font-family: Arial, Helvetica, sans-serif;  
+    position: relative;
+    left: 11px;
+    top: 0px;
+    font-size: 14px;
+    color: rgb(0, 102, 33);
+    font-style: normal;
+}
+.section-2-toms h4 {
+    color: rgb(95, 99, 104);
+    font-family: Arial, Helvetica, sans-serif; 
+    position: relative;
+    left: 11px;
+    top: 0px;
+    font-size: 13px;
+}
+.section-2-tech {
+    width: 205px;
+    height: 296px;
+    border: 1px solid #e4e4e4;
+    border-radius: 2px;
+    box-shadow: 0px 2px 0px lightgray;
+    float: left;
+    position: relative;
+    left: 10px;
+    top: 0px;
+}
+.section-2-tech img {
+    width: 205px;
+    height: 115px;
+    border-top-right-radius: 2px;
+    border-top-left-radius: 2px;
+}
+.section-2-tech h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(26, 13, 171);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.375em;
+    position: relative;
+    left: 11px;
+    cursor: pointer;
+}
+.section-2-tech h3:hover {
+    text-decoration: underline;
+}
+.section-2-tech cite {
+    font-family: Arial, Helvetica, sans-serif;  
+    position: relative;
+    left: 11px;
+    top: 0px;
+    font-size: 14px;
+    color: rgb(0, 102, 33);
+    font-style: normal;
+}
+.section-2-tech h4 {
+    color: rgb(95, 99, 104);
+    font-family: Arial, Helvetica, sans-serif; 
+    position: relative;
+    left: 11px;
+    top: 0px;
+    font-size: 13px;
+}
+.bottom_arrow  {
+    position: relative;
+    left: 18px;
+    top: 0px;
+    float: none;
+    width: 250px;
+    height: 30px; 
+    color: rgb(26, 13, 171);
+    font-family: arial, sans-serif;
+    font-weight: normal;
+    font-size: 13px;
+    text-decoration: none;
+}
+.bottom_arrow:hover {
+    text-decoration: underline;
+}
+i {
+    position: relative;
+    left: 12px;
+    top: 7px;
+    color: rgb(26, 13, 171);
+}
+
+/*Section 3 Twitter */
+.section-3-twitter {
+    position: relative;
+    left: 140px;
+    top: 5px;
+    width: 630px;
+    height: 310px;
+}
+.twitter-title cite {
+    font-family: Arial, Helvetica, sans-serif;  
+    position: relative;
+    left: 11px;
+    top: -5px;
+    font-size: 14px;
+    color: rgb(0, 102, 33);
+    font-style: normal;
+}
+.twitter-title a {
+    text-decoration: none;
+    position: relative;
+    left: 11px;
+    top: 12px;
+}
+.twitter-title a:hover {
+    text-decoration: underline;
+}
+.twitter-title h3 {
+    font-size: 18px;
+    color: rgb(26, 13, 171);
+    font-family: arial, sans-serif;
+    font-weight: normal;
+}
+.twitter-div1 {
+    width: 205px;
+    height: 225.6px;
+    background-color: ;
+    float: left;
+    position: relative;
+    left: 0px;
+    border: 1px solid #e4e4e4;
+    border-radius: 2px;
+    box-shadow: 0px 2px 0px lightgray;
+}
+.twitter-div2 {
+    width: 205px;
+    height: 225.6px; 
+    background-color:;
+    float: left;
+    position: relative;
+    left: 5px;
+    border: 1px solid #e4e4e4;
+    border-radius: 2px;
+    box-shadow: 0px 2px 0px lightgray;
+}
+.twitter-div3 {
+    width: 205px;
+    height: 225.6px; 
+    background-color: ;
+    float: left;
+    position: relative;
+    left: 10px;
+    border: 1px solid #e4e4e4;
+    border-radius: 2px;
+    box-shadow: 0px 2px 0px lightgray;
+}
+.section-3-twitter p {
+    color: rgb(34, 34, 34);
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: small;
+    position: relative;
+    left: 13px;
+    top: 5px;
+    line-height: 18px;
+}
+.twitter-div1 a {
+    color: rgb(95, 99, 104);
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    left: 13px;
+    top: -11px;
+    text-decoration: none;
+}
+.twitter-div1 a:hover {
+    text-decoration: underline;
+    color: rgb(26, 13, 171);
+}
+.twitter-div1 h4 {
+    color: rgb(128, 128, 128);
+    font-size: 13px;
+    position: relative;
+    left: 13px;
+    top: -11px;
+}
+.twitter-div1 h4 a {
+    position: relative;
+    left: 0px;
+    top: 0px;
+    color: rgb(26, 13, 171);
+}
+.twitter-div2 a {
+    color: rgb(95, 99, 104);
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    left: 13px;
+    top: -11px;
+    text-decoration: none;
+}
+.twitter-div2 a:hover {
+    text-decoration: underline;
+    color: rgb(26, 13, 171);
+}
+.twitter-div2 h4 {
+    color: rgb(128, 128, 128);
+    font-size: 13px;
+    position: relative;
+    left: 13px;
+    top: -11px;
+}
+.twitter-div2 h4 a {
+    position: relative;
+    left: 0px;
+    top: 0px;
+    color: rgb(26, 13, 171);
+}
+
+.twitter-div3 a {
+    color: rgb(95, 99, 104);
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    left: 13px;
+    top: -11px;
+    text-decoration: none;
+}
+.twitter-div3 a:hover {
+    text-decoration: underline;
+    color: rgb(26, 13, 171);
+}
+.twitter-div3 h4 {
+    color: rgb(128, 128, 128);
+    font-size: 13px;
+    position: relative;
+    left: 13px;
+    top: -11px;
+}
+.twitter-div3 h4 a {
+    position: relative;
+    left: 0px;
+    top: 0px;
+    color: rgb(26, 13, 171);
+}
+/*Section 4 Below Twitter*/
+.section-4-below-twitter {
+    width: 600px;
+    height: 600px;
+    position: relative;
+    left: 152px;
+    top: 30px;
+}
+
+.section-4-below-twitter h3 {
+    font-size: 18px;
+    color: rgb(26, 13, 171);
+    font-family: arial, sans-serif;
+    font-weight: normal;
+}
+.section-4-below-twitter cite {
+    font-family: Arial, Helvetica, sans-serif;  
+    position: relative;
+    left: 0px;
+    top: -25px;
+    font-size: 14px;
+    color: rgb(0, 102, 33);
+    font-style: normal;
+    cursor: pointer;
+}
+.section-4-below-twitter a {
+    text-decoration: none;
+}
+.section-4-below-twitter a:hover {
+    text-decoration: underline;
+}
+.section-4-below-twitter i {
+    color: rgb(0, 102, 33);    
+    position: relative;
+    left: -7px;
+    top: -17px;
+}
+.section-4-below-twitter p {
+    color: rgb(95, 99, 104);
+    font-family: Arial, Helvetica, sans-serif; 
+    position: relative;
+    left: 0px;
+    top: -35px;
+    font-size: 13px;
+}
+.section-4-div2 {
+    position: relative;
+    top: -30px;
+}
+.section-4-div3 {
+    position: relative;
+    top: -50px;
+}
+.section-4-div4 {
+    position: relative;
+    top: -70px;
+}
+.section-4-div5 {
+    position: relative;
+    top: -90px;
+}
+.section-4-div6 {
+    position: relative;
+    top: -110px;
+}
+/*Section 5 Search Related*/
+.section-5-related {
+    width: 250px;
+    height: 140px;
+    position: relative;
+    left: 152px;
+    top: 40px;
+}
+.section-5-related h3 {
+    color: #222;
+    font-size: 18px;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ul {
+    list-style-type: none;
+    color: #1a0dab;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.first-list {
+    position: relative;
+    left: -40px;
+    top: -5px;
+    line-height: 25px;
+}
+.second-list {
+    position: relative;
+    left: 125px;
+    top: -120px;
+    line-height: 25px;
+}
+ul li:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+/*Bottom Navigation*/
+.bottom-nav {
+    width: 300px;
+    height: 60px;
+    background-color: ;
+    position: relative;
+    left: 300px;
+    top: 50px;
+}
+.bottom-nav h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(26, 13, 171);
+    font-weight: 300;
+}
+.bottom-nav i {
+    color: #4285f4;
+    position: relative;
+    top: 0px;
+    left: -2px;
+}
+.number-table {
+    width: 250px;
+    height: 20px;
+    background-color: ;
+    position: relative;
+    left: 30px;
+    top: -20px;
+}
+.number-table a {
+    text-decoration: none;
+    color: #4285f4;
+    font-weight: 400;
+}
+.number-table a:hover {
+    text-decoration: underline;
+}
+.number-next {
+    position: relative;
+    left: 90px;
+    width: 20px;
+    height: 10px;
+}
+.number-10 {
+    position: relative;
+    left: 48px;
+}
+.number-9 {
+    position: relative;
+    left: 46px;
+}
+.number-8 {
+    position: relative;
+    left: 41px;
+}
+.number-7 {
+    position: relative;
+    left: 34px;
+}
+.number-6 {
+    position: relative;
+    left: 28px;
+}
+.number-5 {
+    position: relative;
+    left: 22px;
+}
+.number-4 {
+    position: relative;
+    left: 17px;
+}
+.number-3 {
+    position: relative;
+    left: 12px;
+}
+.number-2 {
+    position: relative;
+    left: 5px;
+}
+/*Footer*/
+footer {
+    width: 1893px;
+    height: 70px;
+    background-color: #f2f2f2;
+    position: relative;
+    top: 75px;
+    left: 0px;
+    border: 1px solid #e4e4e4;
+}
+footer h4 {
+    position: relative;
+    left: 152px;
+    top: -10px;
+    color: rgb(95, 99, 104);
+    font-family: Arial, Helvetica, sans-serif;
+    width: 600px;
+    height: 30px;
+}
+footer h4 strong {
+    color: #333;
+}
+footer h4 a {
+    text-decoration: none;
+    color: rgb(95, 99, 104);
+}
+footer h4 a:hover {
+    color: rgb(0, 0, 0);
+}
+/*Bottom div in Footer*/
+.footer-help {
+    position: relative;
+    left: 152px;
+    top: -40px;
+    width: 30px;
+    height: 20px;
+    float: left;
+    text-align: left;
+}
+.footer-send {
+    width: 100px;
+    height: 20px;
+    float: left;
+    position: relative;
+    left: 175px;
+    top: -40px;
+}
+.footer-privacy {
+    width: 45px;
+    height: 20px;
+    float: left;
+    position: relative;
+    left: 185px;
+    top: -40px;
+}
+.footer-terms {
+    width: 35px;
+    height: 20px;
+    float: left;
+    position: relative;
+    left: 195px;
+    top: -40px;
+}
